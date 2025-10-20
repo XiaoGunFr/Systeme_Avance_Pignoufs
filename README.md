@@ -1,6 +1,6 @@
 # pignoufs — Système de fichiers
 
-**Pignoufs**, un mini-système de fichiers contenu dans un seul fichier conteneur. Ce conteneur est manipulé via des lignes de commande (`pignoufs <commande> <conteneur> [...]`) qui reproduisent des commandes de base comme `ls`, `cp`, `rm`, `fsck`, etc. L'accès interne au conteneur se fait par projection mémoire (`mmap`) — les accès via `read`/`write` classiques ne sont pas utilisés par conception.
+**Pignoufs** (Projet Informatique de Gestation d’un Nouvel Outil Ultravérifié de File System), un mini-système de fichiers contenu dans un seul fichier conteneur. Ce conteneur est manipulé via des lignes de commande (`pignoufs <commande> <conteneur> [...]`) qui reproduisent des commandes de base comme `ls`, `cp`, `rm`, `fsck`, etc. L'accès interne au conteneur se fait par projection mémoire (`mmap`) — les accès via `read`/`write` classiques ne sont pas utilisés par conception.
 
 ---
 
