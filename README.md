@@ -152,13 +152,6 @@ Prendre un verrou en écriture :
 
 ---
 
-## Tests & validation
-
-* Prévoir des scénarios de test couvrant : création, copies, suppressions, corruption simulée, concurrence et fsck.
-* Tester le comportement en cas d'accès concurrent (deux processus essayant d'écrire/lecture le même fichier).
-
----
-
 ## Limitations connues
 
 * Le format suppose une architecture little-endian et des entiers 4 octets.
